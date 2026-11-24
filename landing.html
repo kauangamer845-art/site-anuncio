@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraMind — Recupere 3h por Dia com Foco Profundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- TOPO: Navegação Limpa e CTA -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">⚡ Aura<span>Mind</span></a>
+            <nav class="nav-links">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#depoimentos">Resultados</a>
+                <a href="#planos">Planos</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="#captura" class="btn btn-primary">Testar Grátis</a>
+        </div>
+    </header>
+
+    <!-- ATENÇÃO: Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge">Nova Engine Neural v3.2 • +14.000 usuários</span>
+                <h1>Recupere <span class="highlight">3 horas por dia</span> eliminando a procrastinação com IA.</h1>
+                <p>A AuraMind prioriza suas tarefas pelo seu nível de energia mental e bloqueia distrações em tempo real.</p>
+                <div class="cta-group">
+                    <a href="#captura" class="btn btn-accent">Começar 14 Dias Grátis →</a>
+                    <a href="#beneficios" class="btn btn-outline">Como Funciona</a>
+                </div>
+                <small class="micro-copy">✓ Sem cartão de crédito • ✓ Setup em 60 segundos</small>
+            </div>
+            <div class="hero-card">
+                <div class="card-header">Modo Deep Work Ativo</div>
+                <div class="timer-box">
+                    <span class="timer-label">Sessão Guiada por IA</span>
+                    <div id="demo-timer" class="timer-display">45:00</div>
+                    <button id="demo-timer-btn" class="btn btn-primary">Iniciar Ciclo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERESSE: Benefícios -->
+    <section id="beneficios" class="section">
+        <div class="container">
+            <h2 class="section-title">Projetada para o cérebro humano</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>🧠 Priorização Bio-Cognitiva</h3>
+                    <p>Aloca tarefas complexas nos seus horários de maior clareza mental.</p>
+                </div>
+                <div class="card">
+                    <h3>🛡️ Escudo Anti-Distração</h3>
+                    <p>Bloqueia notificações impulsivas durante seus blocos de foco.</p>
+                </div>
+                <div class="card">
+                    <h3>🎧 Paisagens Sonoras Neurais</h3>
+                    <p>Áudio binaural calibrado para induzir Flow State rapidamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESEJO: Prova Social & Planos -->
+    <section id="depoimentos" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Resultados comprovados</h2>
+            <div class="grid-3">
+                <blockquote class="card">
+                    <p>"Entreguei um projeto de UX 4 dias antes do prazo na primeira semana."</p>
+                    <cite>— Camila Mendes, Product Designer</cite>
+                </blockquote>
+                <blockquote class="card">
+                    <p>"Os ciclos neurais dobraram minha velocidade de programação."</p>
+                    <cite>— Rafael Almeida, Tech Lead</cite>
+                </blockquote>
+                <blockquote class="card">
+                    <p>"Interface limpa e intuitiva. Consigo conciliar estudos e agência."</p>
+                    <cite>— Juliana Santos, Marketing Digital</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="planos" class="section">
+        <div class="container">
+            <h2 class="section-title">Escolha seu plano</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Starter</h3>
+                    <p class="price">R$ 0<span>/mês</span></p>
+                    <p>Até 15 tarefas diárias e timer Pomodoro.</p>
+                    <a href="#captura" class="btn btn-outline full">Criar Conta</a>
+                </div>
+                <div class="card featured">
+                    <span class="tag">Mais Escolhido</span>
+                    <h3>AuraMind Pro</h3>
+                    <p class="price">R$ 29,90<span>/mês</span></p>
+                    <p>IA completa, bloqueador e integrações ilimitadas.</p>
+                    <a href="#captura" class="btn btn-accent full">Testar 14 Dias Grátis</a>
+                </div>
+                <div class="card">
+                    <h3>Equipes</h3>
+                    <p class="price">R$ 24,90<span>/usuário</span></p>
+                    <p>Blocos de foco sincronizados para squads.</p>
+                    <a href="#captura" class="btn btn-outline full">Falar com Consultor</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AÇÃO: Formulário de Captura -->
+    <section id="captura" class="section bg-alt">
+        <div class="container form-wrapper">
+            <h2>Libere seus 14 dias gratuitos agora</h2>
+            <form id="lead-form" novalidate>
+                <div class="form-group">
+                    <label for="lead-name">Nome completo *</label>
+                    <input type="text" id="lead-name" placeholder="Seu nome" required>
+                    <span id="error-name" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <label for="lead-email">Melhor e-mail *</label>
+                    <input type="email" id="lead-email" placeholder="voce@email.com" required>
+                    <span id="error-email" class="error-msg"></span>
+                </div>
+                <button type="submit" class="btn btn-accent full">Quero Meu Acesso Grátis</button>
+                <div id="form-success" class="success-msg" hidden>
+                    🎉 Cadastro realizado! Verifique seu e-mail para ativar sua conta.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+        <div class="container faq-list">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <button class="faq-question">Preciso de cartão de crédito para testar?</button>
+                <div class="faq-answer">Não! O teste de 14 dias é 100% gratuito e sem compromisso.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Funciona no celular e computador?</button>
+                <div class="faq-answer">Sim, sincronização em tempo real na Web, iOS e Android.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 AuraMind • Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
